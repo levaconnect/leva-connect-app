@@ -1,0 +1,80 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": [
+      "ES2020"
+    ],
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@": [
+        "./index"
+      ],
+      "@/components": [
+        "./components/index"
+      ],
+      "@/components/*": [
+        "./components/*"
+      ],
+      "@/store": [
+        "./store/index"
+      ],
+      "@/store/*": [
+        "./store/*"
+      ],
+      "@/services": [
+        "./services/index"
+      ],
+      "@/services/*": [
+        "./services/*"
+      ],
+      "@/hooks": [
+        "./hooks/index"
+      ],
+      "@/hooks/*": [
+        "./hooks/*"
+      ],
+      "@/features": [
+        "./features/index"
+      ],
+      "@/features/*": [
+        "./features/*"
+      ],
+      "@/theme": [
+        "./theme/index"
+      ],
+      "@/theme/*": [
+        "./theme/*"
+      ],
+      "@/types": [
+        "./types/index"
+      ],
+      "@/types/*": [
+        "./types/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "extends": "expo/tsconfig.base"
+}
