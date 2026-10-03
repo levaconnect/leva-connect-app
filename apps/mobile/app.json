@@ -29,8 +29,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FAF8F2"
       },
-      "package": "com.levaconnect.app",
-      "usesCleartextTraffic": true
+      "package": "com.levaconnect.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -48,6 +47,7 @@
     },
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "newArchEnabled": true
   }
 }

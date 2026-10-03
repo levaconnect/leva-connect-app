@@ -19,6 +19,7 @@
     "typecheck": "npm run typecheck --workspaces"
   },
   "devDependencies": {
+    "ajv": "^8.20.0",
     "typescript": "^5.4.0"
   },
   "engines": {
